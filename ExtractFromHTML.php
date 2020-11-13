@@ -1,10 +1,7 @@
 <?php
 
-class HTMLTestDataExtract
+class HTMLTextDataExtract
 {
-    /**
-     * @author : Saikat
-     */
     
     /**
      * Get response of an link in html format
@@ -81,7 +78,7 @@ class HTMLTestDataExtract
 
 
 $url="https://futurehuman.medium.com/were-past-the-point-of-no-return-on-global-warming-scientists-warn-6779aaf4ed2b";
-$data=new HTMLTestDataExtract();
+$data=new HTMLTextDataExtract();
 $response=$data->get_curlResponse($url);
 
 $dom=new DOMDocument();
