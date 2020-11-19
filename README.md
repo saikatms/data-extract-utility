@@ -1,6 +1,7 @@
 # data-extract-utility
 
 OCR Setup
+
 Tesseract Installation:
   1. sudo apt install tesseract-ocr
   2. To download all languages packs run following command:
