@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\PdfToImage\Exceptions;
+namespace OCR\PdfToImage\Exceptions;
 
 use Exception;
 
